@@ -28,13 +28,20 @@ Libraries: Scikit-learn, Pandas, NumPy, Requests
 
 API: OpenWeatherMap API
 
-📈 Performance
-The model is evaluated using Mean Squared Error (MSE) for the regression components to ensure high precision in forecasting.
-
-<img width="968" height="281" alt="image" src="https://github.com/user-attachments/assets/c2673425-429b-45e2-8609-525ac391e07a" />
+height="281" alt="image" src="https://github.com/user-attachments/assets/c2673425-429b-45e2-8609-525ac391e07a" />
 
  
-In recent tests, the classification model achieved a high degree of accuracy in predicting precipitation events based on humidity and pressure gradients.
+Model Evaluation & Performance Analysis
+📊 Performance Metrics Summary
+Overall Accuracy: 85%
+
+Log Loss: 0.3366 (Indicates strong probability calibration and low uncertainty)
+
+Dataset Size: 73 evaluation samples (57 No Rain / 16 Rain)
+
+<img width="1023" height="454" alt="image" src="https://github.com/user-attachments/assets/fe04092c-0daa-4b57-a731-f3717309d958" />
+
+<img width="1075" height="476" alt="image" src="https://github.com/user-attachments/assets/31da7a67-e103-4da5-a3af-4e38ea508604" />
 
 
 Clone the repository:
